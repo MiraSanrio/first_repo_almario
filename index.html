@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almario</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons for clean minimalist icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <a href="#" class="logo">MyPortfolio<span>.</span></a>
+        
+        <nav class="navbar">
+            <a href="#about" class="active">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Dark/Light Mode Theme Toggle Button -->
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <i class='bx bx-moon'></i>
+        </button>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="main-container">
+        
+        <!-- About Section -->
+        <section id="about" class="section">
+
+            <div class="profile-img-box">
+                        <img src="./Images/light.jpg" alt="Picture" class="profile-img">
+            </div>
+
+            <div class="hero-content">
+                <span class="badge">Graphic Designer</span>
+                <h1>Hi, I'm <span class="highlight">Mira</span></h1>
+                <p class="tagline">Exceptional design isn't just about looking good—it's about getting remembered. Let's make your brand impossible to ignore.</p>
+                <div class="action-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Syntax Match</h3>
+                    <p>An interactive memory card matching game built with object-oriented programming principles and custom audio.</p>
+                    <div class="tech-tags">
+                        <span>Java</span>
+                        <span>Swing</span>
+                        <span>OOP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-text">Have a project in mind or want to talk about code and hackathons? Reach out below.</p>
+            <a href="mailto:hello@example.com" class="btn primary">Send an Email</a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026. Designed with minimalist care.</p>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+</html>
